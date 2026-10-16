@@ -54,7 +54,7 @@ sudo apt install mariadb-server libmariadb-dev build-essential python3-dev pkg-c
    pip install -r requirements.txt
 ```
 
-5. Crear el archivo `.env` en la raíz del proyecto (junto a `manage.py`). Este archivo no se sube a git:
+5. Crear el archivo `.env` en la raíz del proyecto (junto a `manage.py`). El '.env' se subio esta vez por requerimientos de la evaluacion. :
 
 ```
    SECRET_KEY=<clave-secreta>
